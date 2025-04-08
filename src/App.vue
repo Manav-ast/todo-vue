@@ -1,7 +1,7 @@
 <script setup>
 import NavBar from './components/NavBar.vue';
 import FooterLinks from './components/FooterLinks.vue';
-import HomeView from './components/HomeView.vue';
+import HomeView from './components/pages/HomeView.vue';
 </script>
 
 <template>

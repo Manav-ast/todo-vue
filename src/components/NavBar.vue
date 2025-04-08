@@ -5,7 +5,7 @@
     </div>
     <ul class="navbar__links">
       <!-- <li><router-link to="/">Logout</router-link></li> -->
-      <button class="button">Logout</button>
+      <!-- <button class="button">Logout</button> -->
     </ul>
   </nav>
 </template>
@@ -22,13 +22,13 @@
     padding: 1rem;
     background-color: #212454;
     /* border-bottom: 1px solid #ddd; */
-    width: 100vw; /* Use viewport width */
-    position: fixed; /* Fix it to the top */
+    width: 100vw; 
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000; /* Ensure it stays on top of other content */
-    box-sizing: border-box; /* Include padding in width calculation */
+    z-index: 1000; 
+    box-sizing: border-box; 
   }
 
   .navbar__logo {
